@@ -1,9 +1,48 @@
 <html>
 <head>
   <title>Ramp Workshop</title>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <div>Hello</div>
+  <h1>Ramp demo</h1>
+
+  <div class="launch-button-container">
+    <div class="launch-mode-container">
+      <h3>Launch mode - overlay</h3>
+      <button class="launch-button" id="launch-desktop">
+        Launch desktop Ramp
+      </button>
+      <button class="launch-button" id="launch-mobile">
+        Launch mobile Ramp
+      </button>
+    </div>
+
+    <div class="launch-mode-container">
+      <h3>Launch mode - overlay</h3>
+      <button class="launch-button" id="launch-desktop-new-tab">
+        Launch desktop Ramp in new tab
+      </button>
+      <button class="launch-button" id="launch-mobile-new-tab">
+        Launch mobile Ramp in new tab
+      </button>
+    </div>
+
+    <div class="launch-mode-container">
+      <h3>Launch mode - overlay</h3>
+      <button class="launch-button" id="launch-desktop-selected-element">
+        Launch desktop Ramp in a selected element
+      </button>
+      <button class="launch-button" id="launch-mobile-selected-element">
+        Launch mobile Ramp in a selected element
+      </button>
+    </div>
+  </div>
+
+  <div class="ramp-container">
+    <h2>Ramp will appear here</h2>
+
+    <div id="ramp-node" class="ramp-node"></div>
+  </div>
 
   <script src="./scripts/index.ts"></script>
 </body>

@@ -1,0 +1,54 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px auto 40px;
+}
+
+.launch-button-container {
+
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.launch-mode-container {
+  text-align: center;
+}
+
+.launch-button {
+  max-width: 320px;
+  background: #21BF73;
+  color: #FFF;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #ccc;
+}
+
+.ramp-container {
+  margin-top: 50px;
+}
+
+.ramp-container h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+#ramp-node {
+  width: 900px;
+  height: 700px;
+  border: 1px solid hotpink;
+  margin: 0 auto;
+}
