@@ -17,5 +17,8 @@
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@ramp-network/ramp-instant-sdk": "^2.4.3"
   }
 }

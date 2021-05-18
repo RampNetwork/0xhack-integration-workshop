@@ -8,13 +8,25 @@ html {
   color: #333;
 }
 
+body {
+  margin: 0;
+  text-align: center;
+}
+
+select, label {
+  vertical-align: middle;
+}
+
 h1 {
   text-align: center;
   margin: 20px auto 40px;
 }
 
-.launch-button-container {
+.input-container {
+  margin: 10px auto;
+}
 
+.launch-button-container {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: center;
@@ -51,4 +63,5 @@ h1 {
   height: 700px;
   border: 1px solid hotpink;
   margin: 0 auto;
+  background: #eee;
 }
