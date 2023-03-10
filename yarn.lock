@@ -959,10 +959,10 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
-"@ramp-network/ramp-instant-sdk@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@ramp-network/ramp-instant-sdk/-/ramp-instant-sdk-3.1.1.tgz#468bf7b9e28bb7074ab6b720df8aa7ce4aec971e"
-  integrity sha512-styElknV9f9nvxH+uzmlJIRuzuBSzinzWZN6nlrh1SJ7CfDAd460PWkUuWZHEvRhRUTwpZCmltMxtLRCzykJAQ==
+"@ramp-network/ramp-instant-sdk@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@ramp-network/ramp-instant-sdk/-/ramp-instant-sdk-4.0.1.tgz#a767f815d45f00148ca1e21a4cd89852fa53a291"
+  integrity sha512-t8F1C8A6MUKNUKf/4rMq3J77Yi3I4mFUNI6MlOiiyyWbl1z0sWqdT7/g4dEqDt1JAOt9i/NVMNBw+37aWrzH4g==
   dependencies:
     body-scroll-lock "^3.1.5"
 

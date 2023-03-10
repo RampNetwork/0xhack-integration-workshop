@@ -22,6 +22,9 @@ const buttons = {
 const basicRampConfig = {
   hostAppName: 'Demo app',
   hostLogoUrl: 'https://thumbs.dreamstime.com/b/demo-demo-icon-139882881.jpg',
+  enabledFlows: ['ONRAMP','OFFRAMP'],
+  url: 'https://app.demo.ramp.network',
+  hostApiKey: 'j4z5gn7eh7uvbdgpd7c7wgkq4msuqrgs4xq4jutv',
   fiatCurrency: 'EUR',
 };
 
